@@ -1,0 +1,222 @@
+/* h2{
+    color: red
+ } */
+ /* id should be different to access */
+ /* to use id use # */
+ /* #beo{
+    color: aquamarine;
+ }
+ /* to use class use . */
+ /* .beo{
+    color: violet;
+ } */ 
+ /* background color */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ /* .back{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url('img/r.jpg');
+    /* background-repeat: repeat-x; */ /*horizontal-repeat;
+    /* background-repeat: repeat-y; vertical-repeat */
+
+    /* background-repeat: no-repeat; */
+    /* in center */
+    /* property of css3
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+ } */
+ /* .back1{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url('img/90.jpg');
+    background-repeat: repeat-x; /*horizontal-repeat; */
+    /* background-repeat: repeat-y; vertical-repeat */
+/* 
+    background-repeat: no-repeat;
+    /* in center */
+    /* property of css3 */
+    /* background-size: 100% 100%;
+    background-attachment: fixed;
+
+ } */ 
+/* access the font by id  */
+ /* #fonts{
+    font-family: 'Zeyada', cursive;
+    /* reduce the size */
+    /* font-variant: small-caps; */
+    /* font-size can be in px,rem ,em   ,1em=16px*/
+    /* font-size: 3em; */
+    /* give style */
+    /* font-style: italic;/ */
+    /* font-weight: bold; */
+    /* font-weight: lighter; */
+    /* font-weight: 800; */
+ /* } */ 
+
+
+ /* text css */
+ /* .textcss{
+    font-family:'Zeyada', cursive;
+    color: royalblue;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    /* direction left to right */
+    /* direction: ltr; */
+    /* text-indent: 20px; */
+    /* text-align: center; */
+    /* text-transform: lowercase; */
+
+ /* }  */
+
+/* link text */
+
+/* unvisited link */
+/* a:link{
+   color: gold;
+}
+
+/* visited link */
+/* a:visited{
+   color: rgb(255, 105, 105);
+}
+/* mouse hover link */
+
+/* a:hover{ */
+   /* color: yellowgreen;
+}
+/* selected link */
+/* a:active{
+   color: blueviolet; */
+/* }   */
+/* border properties in css3 */
+/* .borderCss{
+   width: 500px;
+   height: 500px;
+   background-color: white;
+   /* first */
+   /* border-width: 10px; */
+   /* border-color: blue;
+   border-style: dashed; */
+   /* border: 5px dotted black;
+
+} */
+
+/* ul{
+   list-style-type: square;
+}
+ol{
+   /* two choice roman alpha */
+   /* list-style-type: lower-roman; */
+/* }  */
+/* box-model-css */
+/*  */
+
+/* .boxmodel{
+   width: 500px;
+   height: 200px;
+   background-color: blueviolet;
+   padding-left: 15px;
+}
+input{ */
+   /* padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px; */
+   /* padding: 8px;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+
+} */
+/* (visible, hidden, scroll, auto) type of overflow/scrollbar */
+
+/* p{
+   width: 200px;
+   height: 100px;
+   border: red solid 1px;
+   /* overflow: hidden; */
+   /* overflow: auto;
+}  */
+
+/* .father{
+   width: 400px;
+   height:400px ;
+   background-color: rgb(255, 230, 0);
+   position: relative;
+}
+.beti1{
+   width: 100px;
+   height: 100px;
+   background-color: #8a2be2;
+   position: absolute;  */
+   /* left: 0;  */
+   /* z-index: 2; */
+   /* last z-index call first */
+/* }
+.beti2{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(43, 226, 83);
+    position: absolute;
+   right: 0; 
+   z-index: 1;
+}
+.beti3{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(43, 46, 226);
+   position: absolute; 
+   /* bottom: 0;
+   right: 0;  */
+   /* z-index: 3;
+} */
+/* .beti4{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(226, 43, 43);
+    position: absolute;
+   /* bottom: 0;  */
+   /* z-index: 4; */
+  
+/* }  */
+.header{
+   width: 100%;
+   height: 80px;
+   background-color: hotpink;
+}
+.logo{
+   width: 30%;
+   height: 80px;
+   text-align: center;
+   background-color: rgb(61, 42, 165);
+   float: left;
+}
+.menu{
+   width: 70%;
+   height: 80px;
+   text-align: center;
+   background-color: rgb(42, 165, 48);
+   float: right;
+   
+}
+ul{
+   list-style: none;
+   /* direction: rtl; */
+   /* display: inline; */
+   /* text-align: right; */
+}
+li{
+   /* display: inline; */
+   /* display: block; */
+   /* display: inline-block; */
+   /* display: none; */
+   border: 1px solid blueviolet;
+   padding: 10px;
+
+}
